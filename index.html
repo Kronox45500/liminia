@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Liminia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="vignette"></div>
+    <div id="panic-overlay"></div> 
+    <div id="scanlines"></div>
+    <div id="static"></div> <div id="hud">FRAGMENTS: <span id="count">0</span>/5</div>
+    <div id="timer-container">COLLAPSE: <span id="timer">60.00</span></div>
+    <div id="stamina">
+        <div id="stamina-fill"></div>
+    </div>
+
+    <div id="ui">
+        <h1 id="main-msg">LEVEL 1 - THE VISCERA</h1>
+        <p id="sub-msg">[ CLIQUEZ POUR ENTRER ]</p>
+        <p style="font-size: 0.8em; color: #844;">IL PEUT TRAVERSER LA MATIÈRE ORGANIQUE.</p>
+    </div>
+
+    <div id="end-screen">
+        <h1 id="end-title"></h1>
+        <p id="end-sub">[ F5 POUR REJOUER ]</p>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script type="module" src="js/main.js"></script>
+</body>
+</html>
